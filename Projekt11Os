@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projekt 11OS</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f4f4f4;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #2c3e50;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    section {
+      padding: 20px;
+      max-width: 900px;
+      margin: auto;
+      background: white;
+      margin-top: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    h1, h2 {
+      color: #2c3e50;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 15px;
+      margin-top: 20px;
+      background: #2c3e50;
+      color: white;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>🌐 Projekt 11OS – Website der Schüler</h1>
+  <p>Eine Plattform für unsere Projekte aus Kunst und Technologie</p>
+</header>
+
+<section>
+  <h2>📚 Beschreibung</h2>
+  <p>
+    Willkommen auf der offiziellen Website der Klasse 11OS.
+    Dieses Projekt wurde erstellt, um die Arbeiten der Schüler im Laufe des Schuljahres zu sammeln,
+    zu präsentieren und zu teilen.
+  </p>
+  <p>
+    Unsere Website ist eine digitale Plattform, die Projekte aus verschiedenen Fachbereichen zeigt.
+    Von Kunst bis Technologie erzählt jedes Projekt eine eigene Lernreise und zeigt Kreativität,
+    Fähigkeiten und Engagement.
+  </p>
+</section>
+
+<section>
+  <h2>🎨 Was du hier findest</h2>
+  <ul>
+    <li>Künstlerische Projekte (Zeichnungen, Fotografie, Design)</li>
+    <li>Technische Arbeiten (Programmierung, Robotik, Webentwicklung)</li>
+    <li>Schulpräsentationen</li>
+    <li>Kreative und fächerübergreifende Ideen</li>
+  </ul>
+</section>
+
+<section>
+  <h2>🎯 Ziele des Projekts</h2>
+  <ul>
+    <li>Unsere Arbeiten teilen und sichtbar machen</li>
+    <li>Digitale Kompetenzen entwickeln</li>
+    <li>Als Gruppe zusammenarbeiten</li>
+    <li>Einen für alle zugänglichen Raum schaffen</li>
+  </ul>
+</section>
+
+<section>
+  <h2>👩‍💻 Wer wir sind</h2>
+  <p>
+    Wir sind die Schüler der Klasse 11OS, eine vielfältige Gruppe mit unterschiedlichen Interessen,
+    aber einem gemeinsamen Ziel: lernen, gestalten und innovativ sein.
+  </p>
+</section>
+
+<section>
+  <h2>🚀 Verwendete Technologien</h2>
+  <ul>
+    <li>HTML, CSS, JavaScript</li>
+    <li>GitHub zur Projektverwaltung</li>
+    <li>GitHub Pages zur Veröffentlichung der Website</li>
+  </ul>
+</section>
+
+<section>
+  <h2>📌 Hinweise</h2>
+  <p>
+    Diese Website wird kontinuierlich aktualisiert. Neue Projekte werden im Laufe der Zeit hinzugefügt,
+    um unseren schulischen Weg bestmöglich darzustellen.
+  </p>
+</section>
+
+<footer>
+  <p>Danke für deinen Besuch auf unserer Website! ✨</p>
+</footer>
+
+</body>
+</html>
