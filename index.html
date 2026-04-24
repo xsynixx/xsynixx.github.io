@@ -28,7 +28,7 @@
       color: #2c3e50;
     }
 
-    .card {
+    .card, .room {
       background: white;
       padding: 20px;
       margin: 20px 0;
@@ -42,6 +42,10 @@
       background: #ddd;
       margin-top: 40px;
     }
+
+    h3 {
+      margin-bottom: 5px;
+    }
   </style>
 </head>
 
@@ -53,6 +57,8 @@
 </header>
 
 <main>
+
+  <!-- INTRO -->
 
   <section class="card">
     <h2>📌 Über das Projekt</h2>
@@ -68,11 +74,6 @@
 
   <section class="card">
     <h2>🌍 Inhalt der Website</h2>
-    <p>
-      Auf dieser Website findest du eine Sammlung von Projekten aus der gesamten Klasse.
-      Jeder Schüler hat an einem eigenen Projekt gearbeitet, das hier vorgestellt wird.
-    </p>
-
     <ul>
       <li>🎨 Kunst und kreatives Design</li>
       <li>💻 Technologie und Programmierung</li>
@@ -85,20 +86,13 @@
   <section class="card">
     <h2>🎯 Ziel der Website</h2>
     <p>
-      Diese Website wurde erstellt, um die Vielfalt der Projekte der Klasse 11OS zu zeigen
-      und einen einfachen Zugang zu allen Arbeiten zu ermöglichen.
-    </p>
-    <p>
-      Sie soll die Kreativität, das Engagement und die unterschiedlichen Fähigkeiten
-      der Schüler hervorheben.
+      Diese Website zeigt die Vielfalt der Projekte der Klasse 11OS
+      und ermöglicht einen einfachen Zugang zu allen Arbeiten.
     </p>
   </section>
 
   <section class="card">
     <h2>👨‍🎓 Autoren</h2>
-    <p>
-      Dieses Projekt wurde von drei Schülern der Klasse 11OS erstellt:
-    </p>
     <ul>
       <li>Timo</li>
       <li>Safira</li>
@@ -106,71 +100,11 @@
     </ul>
   </section>
 
-</main>
-
-<footer>
-  <p>© 2026 Klasse 11Os – Schulprojekt Website</p>
-</footer>
-
-</body>
-</html>
-
-<!DOCTYPE html>
-<html lang="de">
-<head>
-  <meta charset="UTF-8">
-  <title>11Os Projekte</title>
-
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      background: #f4f6f8;
-    }
-
-    header {
-      background: #2c3e50;
-      color: white;
-      padding: 25px;
-      text-align: center;
-    }
-
-    main {
-      max-width: 1000px;
-      margin: auto;
-      padding: 20px;
-    }
-
-    .room {
-      background: white;
-      margin: 15px 0;
-      padding: 15px;
-      border-radius: 10px;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-    }
-
-    h2 {
-      color: #2c3e50;
-    }
-
-    h3 {
-      margin-bottom: 5px;
-    }
-
-  </style>
-</head>
-
-<body>
-
-<header>
-  <h1>🎓 11Os Schulprojekt – Zimmer & Projekte</h1>
-</header>
-
-<main>
+  <!-- PROJECT ROOMS -->
 
   <div class="room">
-    <h2>Aula</h2>
-    <p>(keine Projekte angegeben)</p>
+    <h2>AULA</h2>
+    <p>Keine Projekte angegeben</p>
   </div>
 
   <div class="room">
@@ -288,6 +222,10 @@
   </div>
 
 </main>
+
+<footer>
+  <p>© 2026 Klasse 11OS – Schulprojekt Website</p>
+</footer>
 
 </body>
 </html>
