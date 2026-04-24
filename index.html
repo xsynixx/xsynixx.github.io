@@ -2,50 +2,115 @@
 <html lang="de">
 <head>
   <meta charset="UTF-8">
-  <title>11Os Schulprojekt</title>
+  <title>11Os Schulprojekt Website</title>
+
   <style>
     body {
       font-family: Arial, sans-serif;
-      margin: 40px;
-      background-color: #f5f5f5;
+      margin: 0;
+      background-color: #f4f6f8;
     }
-    h1 {
+
+    header {
+      background-color: #2c3e50;
+      color: white;
+      padding: 30px;
+      text-align: center;
+    }
+
+    main {
+      padding: 30px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    h1, h2 {
       color: #2c3e50;
     }
-    .project {
+
+    .card {
       background: white;
-      padding: 15px;
-      margin: 15px 0;
-      border-radius: 10px;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      padding: 20px;
+      margin: 20px 0;
+      border-radius: 12px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #ddd;
+      margin-top: 40px;
     }
   </style>
 </head>
 
 <body>
 
+<header>
   <h1>🎓 11Os Schulprojekt</h1>
-  <p>Willkommen auf unserer Website! Hier präsentieren wir alle Projekte der Klasse 11Os.</p>
+  <p>Eine Website zur Präsentation aller Schülerprojekte</p>
+</header>
 
-  <h2>👨‍🎓 Autoren</h2>
-  <p>Timo, Safira und Jérémy</p>
+<main>
 
-  <h2>📂 Projekte</h2>
+  <section class="card">
+    <h2>📌 Über das Projekt</h2>
+    <p>
+      Diese Website wurde im Rahmen eines Schulprojekts der Klasse 11Os erstellt.
+      Ziel ist es, alle Projekte der Schüler an einem Ort zu sammeln und übersichtlich zu präsentieren.
+    </p>
+    <p>
+      Die Projekte decken viele verschiedene Bereiche ab – von Kunst und kreativem Design
+      bis hin zu Technologie, Wissenschaft und technischen Arbeiten.
+    </p>
+  </section>
 
-  <div class="project">
-    <h3>🎨 Kunstprojekt</h3>
-    <p>Ein kreatives Kunstwerk mit verschiedenen Materialien.</p>
-  </div>
+  <section class="card">
+    <h2>🌍 Inhalt der Website</h2>
+    <p>
+      Auf dieser Website findest du eine Sammlung von Projekten aus der gesamten Klasse.
+      Jeder Schüler hat an einem eigenen Projekt gearbeitet, das hier vorgestellt wird.
+    </p>
 
-  <div class="project">
-    <h3>💻 Technologieprojekt</h3>
-    <p>Eine Website, die mit HTML und CSS erstellt wurde.</p>
-  </div>
+    <ul>
+      <li>🎨 Kunst und kreatives Design</li>
+      <li>💻 Technologie und Programmierung</li>
+      <li>🔬 Wissenschaft und Forschung</li>
+      <li>🛠️ Technik und praktische Projekte</li>
+      <li>📚 Weitere individuelle Ideen</li>
+    </ul>
+  </section>
 
-  <div class="project">
-    <h3>🔬 Wissenschaftsprojekt</h3>
-    <p>Ein Experiment über Energie und Umwelt.</p>
-  </div>
+  <section class="card">
+    <h2>🎯 Ziel der Website</h2>
+    <p>
+      Diese Website wurde erstellt, um die Vielfalt der Projekte der Klasse 11Os zu zeigen
+      und einen einfachen Zugang zu allen Arbeiten zu ermöglichen.
+    </p>
+    <p>
+      Sie soll die Kreativität, das Engagement und die unterschiedlichen Fähigkeiten
+      der Schüler hervorheben.
+    </p>
+  </section>
+
+  <section class="card">
+    <h2>👨‍🎓 Autoren</h2>
+    <p>
+      Dieses Projekt wurde von drei Schülern der Klasse 11Os erstellt:
+    </p>
+    <ul>
+      <li>Timo</li>
+      <li>Safira</li>
+      <li>Jérémy</li>
+    </ul>
+  </section>
+
+</main>
+
+<footer>
+  <p>© 2026 Klasse 11Os – Schulprojekt Website</p>
+</footer>
 
 </body>
 </html>
